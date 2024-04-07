@@ -1,0 +1,116 @@
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+#bn{
+    padding-bottom: 30px;
+}
+
+.ShopByCategory
+{
+    background-color: #F8F6F3;
+    height: 720px;
+    width: auto;
+    display: block;
+}
+
+.ShopByCategory h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 14.28%;
+    padding: 5px;
+    
+    
+}
+
+.ShopByCategory img{
+    height: 160px;
+    width: 140px;
+    border-radius: 12px;
+}
+
+.img-show{
+    padding-left: 35px;
+}
+
+.img-show h4{
+    text-align: center;
+    margin-left: -26px;
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.ExploreOurProducts{
+    height: auto;
+}
+
+.ExploreOurProducts h1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.checked {
+    color: orange;
+}
+
+.rating span{
+    margin: 3px;
+}
+
+.card{
+    margin-top: 25px;
+    display: block;
+}
+
+.card img{
+    border-radius: 12px;
+}
+
+.top-left {
+    position: absolute;
+    top: 26px;
+    color: #fff;
+    background-color: #3BB54A;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* Image hovver effect */
+
+.image {
+        
+        background-color: green;
+        transition: transform .2s;
+        /* Animation */
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+

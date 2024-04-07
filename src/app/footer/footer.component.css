@@ -1,0 +1,75 @@
+.container {
+
+    color: #202020;
+    font-family: myFirstFont;
+
+}
+
+a {
+
+    color: #fff;
+}
+
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("src/assets/font/Helvetica-Now-Var.ttf");
+}
+
+
+#accordion{
+    background-color: #fff;
+    color: #202020;
+    border: 0px;
+    padding: 10px;
+}
+
+
+#holder {
+    
+    width: 160px;
+    height: 160px;
+}
+
+.img {
+    width: 16.66%;
+    position: relative;
+}
+
+
+
+
+
+.ShopByCategory {
+    background-color: #F8F6F3;
+    height: 270px;
+    width: auto;
+    display: block;
+}
+
+.ShopByCategory h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 14.28%;
+    padding: 5px;
+
+
+}
+
+.ShopByCategory img {
+    height: 178px;
+    width: 178px;
+    border-radius: 6px;
+}
+
+.img-show {
+    padding-left: 35px;
+}

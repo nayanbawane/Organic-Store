@@ -2,15 +2,26 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NavHeadComponent } from './nav-head/nav-head.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { Footer2Component } from './footer2/footer2.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavHeadComponent,
+    MainPageComponent,
+    FooterComponent,
+    Footer2Component,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    NavHeadComponent,
+    MainPageComponent,
+    FooterComponent,
+    Footer2Component,
+  ],
 })
-export class AppModule { }
+export class AppModule {}
